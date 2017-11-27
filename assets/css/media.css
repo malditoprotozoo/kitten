@@ -1,0 +1,66 @@
+@media (max-width: 850px) {
+	
+  #dawn {
+    height: 100%;
+    background-image: url('../images/dawn.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  #kitten-large {
+    margin-top: 35%;
+  }
+
+  #night {
+    display: none;
+  }
+
+  #sunny-day {
+    display: none;
+  }
+
+}
+
+@media (min-width: 850px) and (max-width: 950px) {
+  
+  #night {
+    height: 100%;
+    background-image: url('../images/night.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  #kitten-small {
+    margin-top: 15%;
+  }
+
+  #dawn {
+    display: none;
+  }
+
+  #sunny-day {
+    display: none;
+  }
+}
+
+@media (min-width: 950px) {
+  
+  #sunny-day {
+    height: 100%;
+    background-image: url('../images/sunny-day.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  #kitten-medium {
+    margin-top: 33%;
+  }
+
+  #dawn {
+    display: none;
+  }
+
+  #night {
+    display: none;
+  }
+}
